@@ -41,6 +41,6 @@ document.getElementById("box").onclick = function () {
   targertedBox.style.display = "none";
   var endtime = new Date().getTime();
   var totalTime = endtime - start;
-  alert(`User Clicked Time:  ${totalTime / 100 + " seconds"}`);
+  alert(`User Clicked Time: ${totalTime / 1000} seconds`);
   randomBoxesHandler();
 };
