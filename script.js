@@ -17,8 +17,8 @@ function randomBoxesHandler() {
   var width;
   var height;
   var color;
-  top = Math.floor(Math.random() * 400) + 200;
-  left = Math.floor(Math.random() * 550) + 300;
+  top = 0;
+  left = Math.random() * 300;
   width = Math.floor(Math.random() * 400 + 100);
   height = Math.floor(Math.random() * 400 + 100);
   color = colorArr[Math.floor(Math.random() * 5)];
